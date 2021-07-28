@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: la;
+}
+.boxFather{
+    margin: 0 auto;
+}
+.boxFather{
+    border: 2px solid blue;
+    width: 600px;
+    height: 600px;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 30px;
+}
+.box2,.box3{
+    display: inline-block;
+}
+.box2{
+    overflow: hidden;
+}
+.box3{
+    overflow: scroll;
+}

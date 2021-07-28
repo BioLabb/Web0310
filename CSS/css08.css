@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    color:black;
+}
+.head-title{
+    color: green;
+    padding: 20px;
+}
+h2:first-of-type{
+    color:yellow;
+    text-shadow: 3px 3px 2px  black;
+}
+.head-nav{
+    padding: 20px;
+    background-color: rgb(10, 199, 206);
+    margin-bottom: 40px;
+}
+.head-nav a{
+    display: inline-block;
+    margin: 0px 30px;
+    font-size: large;
+    
+}
+p,h2{
+    color:#ffffff;
+}
+a:last-child{
+    float: right;
+}
+.page-body h3 span{
+    color:rgb(37, 175, 37);
+    font-size: 25px;
+}
+.page-body button{
+    margin-top: 12px;
+    background-color: rgb(44, 128, 197);
+    padding: 7px 6px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+body{
+    min-width: 800px;
+}

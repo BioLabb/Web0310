@@ -1,0 +1,32 @@
+@charset "utf-8";
+ /* CSS Document */
+ body{
+     color: #000000;
+     background-color: #ffffff;
+     font-family:arial,Verdana, sans-serif;
+     font-size: 12px;
+ }
+ p.none{
+     text-transform: none;
+ }
+ p.capitalize{
+     text-transform: capitalize;
+     text-align: center;
+ }
+ p.uppercase{
+     text-transform: uppercase;
+     text-align: right;
+ }
+ p.lowercase{
+     text-transform: lowercase;
+     text-align: left;
+ }
+ p.pageOne:first-line {
+     font-weight: bold;
+ }
+ p.pageOne:first-letter{
+     font-size: large;
+ }
+ .shadow{
+     text-shadow: #999999 10px 10px 3px;
+ }

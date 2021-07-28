@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bài tập 13</title>
+    </head>
+    <style>
+        textarea{
+            width: 98%;
+        }
+        table{
+            border-spacing: 4px;
+            width: 450px;
+        }
+        .labelName{
+            width: 120px;
+        }
+    </style>
+    <body>
+        <form action="">
+            <table border=>
+                <tr class="row1">
+                    <td class="labelName"><label for="fullName"> Họ và tên</label></td>
+                    <td><input type="text" placeholder = "Nhập họ tên ở đây!" id ="fullName"name="fullName"></td>
+                </tr>
+                <tr class="row2">
+                    <td class = "labelName"><labelfor="">Giới tính</labelfor=>     </td>
+                    <td>
+                        <input type="radio"  id ="nam" name = 'gioiTinh' value="nam">
+                         <label for="nam">Nam</label>
+                        <input type="radio" id = "nu" name="gioiTinh" value="nu">
+                         <label for="nu">Nữ</label>
+                    </td>
+                </tr>
+                <tr class="row3">
+                    <td class="labelName"><label for="">Điều bạn quan tâm</label></td>
+                    <td>
+                        <input type="checkbox" id = "kinhTe" name="kinhTe">
+                        <label for="kinhTe">Kinh tế</label>
+                        <input type="checkbox" id="xahoi" name="xahoi">
+                        <label for="xahoi">Xã hội</label>
+                        <input type="checkbox" id="giaiTri" name="giaiTri">
+                        <label for="giaiTri">Giải trí</label>
+                    </td>
+                </tr>
+                <tr class="row4">
+                    <td class="labelName"><label for="diaChi">Địa chỉ</label></td>
+                    <td><textarea name = "diaChi"></textarea></td>
+                </tr>
+                <tr class="row5">
+                    <td class="labelName" ><label for="hocVan">Học vấn</label></td>
+                    <td>
+                        <select name="" id="">
+                         <option value="daiHoc">Đại học</option>
+                         <option value="caoDang">Cao Đẳng</option>
+                         <option value="trungCap">Trung cấp</option>
+                         <option value="thpt">THPT</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="row6">
+                    <td colspan="2">
+                        <input type="submit" value="Gửi thông tin">
+                        <input type="reset" value="Nhập lại">
+                    </td>
+                </tr>
+            </table>
+        </form>

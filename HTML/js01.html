@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Js01</title>
+    <link rel="stylesheet" href="../CSS/js01.css">
+</head>
+
+<body>
+    <form action="" id = "form" onsubmit="return false">
+        <table border="1">
+            <tr>
+                <td>
+                    <label for="name">Nhập vào tên bạn:</label>
+                </td>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="old">Nhập vào năm sinh:</label>
+                </td>
+                <td>
+                    <input type="number" id="old" min="1">
+                </td>
+            </tr>
+        </table>
+        <button id="button" onclick="processDisplay()">Tính tuôi</button>
+    </form>
+    <div id="display">
+        <p id="display-name"></p>
+        <p id="display-old"></p>
+    </div>
+    <script src="../JS/js01.js"></script>
+</body>
+
+</html>

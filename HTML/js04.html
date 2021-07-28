@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ut-8">
+        <title>JS04</title>
+        <link rel="stylesheet" href="../CSS/js04.css">
+    </head>
+    <body>
+        <table>
+            <caption><h3>CÁC PHÉP TÍNH SỐ HỌC</h3></caption> 
+            <tr>
+                <td><label>Số thứ 1</label></td>
+                <td><input type ="number" id ="number1"/></td>
+            </tr>
+            <tr>
+                <td><label for="number2">Số thứ 2</label></td>
+                <td><input type="number" name="" id="number2"></td>
+            </tr>
+            <tr>
+                <td><label>Chọn phép tính</label></td>
+                <td>
+                    <div class="phepTinh">
+                        <input type="radio" name="phepTinh" id="cong" value="cong">
+                        <label for="cong">Cộng</label>
+                    </div class = "phepTinh">
+                    <div>
+                        <input type="radio" name="phepTinh" id="tru" value="tru">
+                        <label for="tru">Trừ</label>
+                    </div class="phepTinh">
+                    <div>
+                        <input type="radio" name="phepTinh" id="nhan" value="nhan">
+                        <label for="nhan">Nhân</label>
+                    </div class= "phepTinh">
+                    <div class="phepTinh">
+                        <input type="radio" name="phepTinh" id="chia" value="chia">
+                        <label for="chia">Chia</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><input type ="button" value="Thực hiện" onclick="render()"/></td>
+                <td><p id = "dapAn"></p></td>
+            </tr>
+        </table>
+        <p id ="err"></p>
+        <script src ="../JS/js04.js"></script>
+    </body>
+</html>

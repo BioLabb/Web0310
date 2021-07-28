@@ -1,0 +1,19 @@
+table{
+    width: 50%;
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+tr,td{
+    border: 0.5px solid black;
+}
+tr{
+    background-color: bisque;
+    margin: 5px 0;
+}
+td>label{
+    font-size: 20px;
+}
+input{
+    display: inline-block;
+    margin-left: 5px;
+}

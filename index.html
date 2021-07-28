@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng web 0310</title>
+    <style>
+        :root{
+            --color:black;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        body{
+            text-align: center;
+            
+        }
+        .head-title{
+            
+            margin-bottom: 30px;
+            color: white;
+        }
+        a{
+            display: inline-block;
+            margin-right: 30px;
+        }
+        .nav{
+            width: 120px;
+            height: 180px;
+        }
+        .head-nav{
+            text-align: center;
+            color: var(--color);
+        }
+        img{
+            margin: 5px 5px;
+        }
+        .img-nav{
+            width: 120px;
+            height: 180px;
+            
+        }
+        .img-nav:hover{
+            margin: 0;
+            width: 130px;
+            transition: width 0.1s;
+            height: 190px;
+            transition: height 0.1s;
+        }
+        body{
+            background-image:url('./Images/background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .boxFather{
+            min-width: 800px;
+            width: 800px;
+            height: 350px;
+            margin: 0 auto;
+            margin-top: 10%;
+            background-color:rgb(128, 128, 128,0.6);
+        }
+        .head-nav{
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxFather">
+    <h2 class="head-title">Danh mục sách</h2>
+    <a class = "nav"href="./web.html">
+        <img src="./Images/html.jpg"class="img-nav">
+        <h3 class="head-nav">HTML</h3>
+    </a>
+    <a class ="nav" href="./css.html">
+        <img src="./Images/css.jpg" class="img-nav">
+        <h3 class="head-nav">CSS</h3>
+    </a>
+    <a class = "nav" href="./javascript.html">
+        <img src="./Images/javascript.jpg"class="img-nav">
+        <h3 class="head-nav">Javascript</h3>
+    </a>
+    <a class = "nav" href="./jquery.html">
+        <img src="./Images/jQuery.jpg" class="img-nav">
+        <h3 class="head-nav">jQuery</h3>
+    </a>
+    </div>
+</body>
+</html>
